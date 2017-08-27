@@ -1,6 +1,6 @@
 var builder = require('botbuilder');
 var restify = require('restify');
-var githubClient = require('./bots-mva/Demos/Module 4 - Interaction/github-client.js');
+var githubClient = require('./github-client.js');
 const env= require('dotenv');
 env.config();
 
